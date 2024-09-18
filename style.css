@@ -1,0 +1,93 @@
+body{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.grid_container{
+     display: grid;
+     grid-template-columns: 100px 100px 100px 200px 100px 100px 50px;
+     grid-template-rows: 50px 200px 200px 100px 100px 50px 25px;
+     gap: 20px;
+     background-color: black;
+}
+
+.i1{
+     grid-column: span 2;
+}
+
+.i2{
+     grid-column: span 2;
+}
+
+.i3{
+     grid-column: span 2;
+}
+
+.i4{
+     grid-row: span 4;
+}
+
+.i5{
+     grid-column: span 3;
+     grid-row: span 2;
+}
+
+.i6{
+     grid-column: span 2;
+}
+
+.i7{
+     grid-row: span 2;
+}
+
+.i8{
+     grid-column: span 2;
+}
+
+.i9{
+     grid-row: span 3;
+}
+
+.i10{
+     grid-column: span 2;
+     grid-row: span 2;
+}
+
+.i11{
+     grid-row: span 3;
+}
+
+.i12{
+     grid-column: span 2;
+     grid-row: span 2;
+}
+
+.i13{
+     grid-column: span 3;
+}
+
+.grey{
+     background-color: 	rgb(231, 228, 228);
+}
+
+.white{
+     background-color: white;
+}
+
+.yellow{
+     background-color: rgb(255, 208, 49);
+}
+
+.red{
+     background-color: rgb(255, 57, 0);
+}
+
+.black{
+     background-color: rgb(26, 26, 0);
+}
+
+.blue{
+     background-color: 	rgb(0, 102, 255);
+}
